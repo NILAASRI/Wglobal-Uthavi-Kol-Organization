@@ -1,3 +1,4 @@
+//Print the traffic signals using if condition.
 var signal="Yellow"
 if (signal=="Red")
 {
