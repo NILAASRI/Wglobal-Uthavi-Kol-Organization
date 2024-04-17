@@ -1,4 +1,6 @@
 #Palindrome function
-def is_palindrome(s):
-   return s == s[::-1]
-
+string=str(input("Enter string:"))
+if(string==string[::-1]):
+      print("The string is a palindrome")
+else:
+      print("The string isn't a palindrome")
